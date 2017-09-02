@@ -25,17 +25,21 @@ $grey-lighter: rgb(219, 219, 219);
 $white-ter: rgb(244, 243, 241);
 $white-bis: rgb(250, 250, 250);
 $white: rgb(255, 255, 255);
-$green: rgb(95, 191, 94);
-$green-light: rgba(70, 185, 128, 0.5);
-$green-invert: findcolorinvert($green);
+$blue: rgb(50, 113, 192);
+$blue-light:RGBA(35, 137, 226, 0.5);
+$blue-invert: findcolorinvert($blue);
+//$grey-deep:RGBA(33, 38, 47, 1.00);
 
 /* Theme colors */
-$primary: $green;
-$primary-invert: $green-invert;
+$primary: $blue;
+$primary-invert: $blue-invert;
 $light: $white-ter;
 $dark: $grey-darker;
 $background: $white-ter;
-$pre-background: rgb(246, 248, 250);
+//$pre-background: $grey-deep; 
+$code-full-background: RGBA(33, 38, 47, 1.00);
+$code-text-background: rgb(246, 248, 250);
+$code-text-color: $white-ter;
 $main-background: $white;
 
 /* Text colors */
