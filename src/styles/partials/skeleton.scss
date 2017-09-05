@@ -96,15 +96,19 @@ a {
 }
 
 .site-footer {
-  display: none;
+  display: block;
+  position: relative;
+  color: $text;
+  font-size: $size-7;
+  text-align: center;
+  font-family: $family-monospace;
+  @media screen and (max-width: $widescreen) {
+    margin-left: 20rem;
+    width: calc(100% - 20rem);
+  }
 
   @media screen and (max-width: $tablet) {
-    display: block;
     padding: 2rem 1rem;
-    color: $text;
-    font-size: $size-7;
-    text-align: center;
-    font-family: $family-monospace;
 
     a {
       color: $text;
