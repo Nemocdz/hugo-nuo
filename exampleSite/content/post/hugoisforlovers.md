@@ -1,6 +1,6 @@
 ---
 title: Getting Started with Hugo
-cover: /media/cover.jpg
+cover: "/img/cover.jpg"
 tags: ["go", "golang", "hugo", "development"]
 date: "2014-04-02"
 ---
