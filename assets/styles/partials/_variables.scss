@@ -14,9 +14,18 @@ $green: rgb(0, 171, 107);
 $green-light: rgba(0, 171, 107, 0.5);
 $green-invert: $green;
 
+$blue: rgb(50, 113, 192);
+$blue-light: rgba(35, 137, 226, 0.5);
+$blue-invert: $blue;
+
+/* Code colors*/
+$code-full-background: RGBA(33, 38, 47, 1.00);
+$code-text-background: rgb(246, 248, 250);
+$code-text-color: $white-ter;
+
 /* Theme colors */
-$primary: $green;
-$primary-invert: $green-invert;
+$primary: $blue;
+$primary-invert: $blue-invert;
 $light: $white-ter;
 $dark: $grey-darker;
 $background: $white-ter;
